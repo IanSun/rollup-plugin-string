@@ -1,0 +1,32 @@
+{
+  "name": "@ian-sun/rollup-plugin-string",
+  "version": "1.0.4",
+  "description": "A Rollup plugin which imports files as string.",
+  "bugs": "https://github.com/IanSun/rollup-plugin-string/issues",
+  "license": "MIT",
+  "author": "Ian Sun <me@sunyun.name>",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanSun/rollup-plugin-string.git"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "source-map": "^0.7.0"
+  },
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.26.0",
+    "@ian-sun/eslint-plugin": "^1.0.0",
+    "@ian-sun/eslint-plugin-typescript": "^1.0.0",
+    "eslint": "^7.0.0"
+  },
+  "peerDependencies": {
+    "rollup": "^2.0.0"
+  },
+  "bundledDependencies": [
+    "@rollup/pluginutils",
+    "@types/node",
+    "source-map"
+  ]
+}
