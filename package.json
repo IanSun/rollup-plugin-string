@@ -1,6 +1,6 @@
 {
   "name": "@ian-sun/rollup-plugin-string",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Rollup plugin which imports files as string.",
   "bugs": "https://github.com/IanSun/rollup-plugin-string/issues",
   "license": "MIT",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^4.0.0",
-    "@types/node": "^14.0.0",
     "source-map": "^0.7.0"
   },
   "devDependencies": {
@@ -26,7 +25,6 @@
   },
   "bundledDependencies": [
     "@rollup/pluginutils",
-    "@types/node",
     "source-map"
   ]
 }
